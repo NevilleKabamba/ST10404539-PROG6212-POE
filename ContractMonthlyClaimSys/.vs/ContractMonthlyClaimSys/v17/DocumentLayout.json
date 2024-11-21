@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{A302C0CA-AB62-41A2-8C17-92AB73650523}|ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj|solutionrelative:contractmonthlyclaimsys\\controllers\\approvalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A302C0CA-AB62-41A2-8C17-92AB73650523}|ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj|c:\\users\\israe\\onedrive\\documents\\github\\st10404539-prog6212-poe\\contractmonthlyclaimsys\\contractmonthlyclaimsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A302C0CA-AB62-41A2-8C17-92AB73650523}|ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj|solutionrelative:contractmonthlyclaimsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A302C0CA-AB62-41A2-8C17-92AB73650523}|ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj|c:\\users\\israe\\onedrive\\documents\\github\\st10404539-prog6212-poe\\contractmonthlyclaimsys\\contractmonthlyclaimsys\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A302C0CA-AB62-41A2-8C17-92AB73650523}|ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj|solutionrelative:contractmonthlyclaimsys\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A302C0CA-AB62-41A2-8C17-92AB73650523}|ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj|c:\\users\\israe\\onedrive\\documents\\github\\st10404539-prog6212-poe\\contractmonthlyclaimsys\\contractmonthlyclaimsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A302C0CA-AB62-41A2-8C17-92AB73650523}|ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj|solutionrelative:contractmonthlyclaimsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A302C0CA-AB62-41A2-8C17-92AB73650523}|ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj|c:\\users\\israe\\onedrive\\documents\\github\\st10404539-prog6212-poe\\contractmonthlyclaimsys\\contractmonthlyclaimsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A302C0CA-AB62-41A2-8C17-92AB73650523}|ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj|solutionrelative:contractmonthlyclaimsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C105A44E-F078-40AE-BA8C-EF9C9A09D6FA}|ContractMonthlyClaimSystem.Tests\\ContractMonthlyClaimSystem.Tests.csproj|c:\\users\\israe\\onedrive\\documents\\github\\st10404539-prog6212-poe\\contractmonthlyclaimsys\\contractmonthlyclaimsystem.tests\\approvalcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A302C0CA-AB62-41A2-8C17-92AB73650523}|ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj|c:\\users\\israe\\onedrive\\documents\\github\\st10404539-prog6212-poe\\contractmonthlyclaimsys\\contractmonthlyclaimsys\\views\\lecturer\\viewclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A302C0CA-AB62-41A2-8C17-92AB73650523}|ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj|solutionrelative:contractmonthlyclaimsys\\views\\lecturer\\viewclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A302C0CA-AB62-41A2-8C17-92AB73650523}|ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj|c:\\users\\israe\\onedrive\\documents\\github\\st10404539-prog6212-poe\\contractmonthlyclaimsys\\contractmonthlyclaimsys\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A302C0CA-AB62-41A2-8C17-92AB73650523}|ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj|solutionrelative:contractmonthlyclaimsys\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A302C0CA-AB62-41A2-8C17-92AB73650523}|ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj|c:\\users\\israe\\onedrive\\documents\\github\\st10404539-prog6212-poe\\contractmonthlyclaimsys\\contractmonthlyclaimsys\\views\\lecturer\\submitclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -126,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ApprovalControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSystem.Tests\\ApprovalControllerTests.cs",
               "RelativeDocumentMoniker": "ContractMonthlyClaimSystem.Tests\\ApprovalControllerTests.cs",
@@ -134,12 +134,11 @@
               "RelativeToolTip": "ContractMonthlyClaimSystem.Tests\\ApprovalControllerTests.cs",
               "ViewState": "AQIAAFIAAAAAAAAAAAAAAGYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T18:20:38.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T18:20:38.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Claim.cs",
               "DocumentMoniker": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\Models\\Claim.cs",
               "RelativeDocumentMoniker": "ContractMonthlyClaimSys\\Models\\Claim.cs",
@@ -164,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ContractMonthlyClaimSys\\Views\\Shared\\_Layout.cshtml",
@@ -172,8 +171,7 @@
               "RelativeToolTip": "ContractMonthlyClaimSys\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAACOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T18:10:35.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T18:10:35.779Z"
             },
             {
               "$type": "Document",
@@ -183,14 +181,27 @@
               "RelativeDocumentMoniker": "ContractMonthlyClaimSys\\Controllers\\ApprovalController.cs",
               "ToolTip": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\Controllers\\ApprovalController.cs",
               "RelativeToolTip": "ContractMonthlyClaimSys\\Controllers\\ApprovalController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-20T17:51:19.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ContractMonthlyClaimSys\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ContractMonthlyClaimSys\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T11:07:27.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "LecturerControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSystem.Tests\\LecturerControllerTests.cs",
               "RelativeDocumentMoniker": "ContractMonthlyClaimSystem.Tests\\LecturerControllerTests.cs",
@@ -202,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ContractMonthlyClaimSystem.Tests.csproj",
               "DocumentMoniker": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSystem.Tests\\ContractMonthlyClaimSystem.Tests.csproj",
               "RelativeDocumentMoniker": "ContractMonthlyClaimSystem.Tests\\ContractMonthlyClaimSystem.Tests.csproj",
@@ -214,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "ContractMonthlyClaimSys\\Views\\_ViewStart.cshtml",
@@ -226,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ContractMonthlyClaimSys.csproj",
               "DocumentMoniker": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj",
               "RelativeDocumentMoniker": "ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj",
@@ -238,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "ContractMonthlyClaimSys\\Models\\ErrorViewModel.cs",
@@ -250,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CheckStatus.cshtml",
               "DocumentMoniker": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\Views\\Lecturer\\CheckStatus.cshtml",
               "RelativeDocumentMoniker": "ContractMonthlyClaimSys\\Views\\Lecturer\\CheckStatus.cshtml",
@@ -262,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UploadDocuments.cshtml",
               "DocumentMoniker": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\Views\\Lecturer\\UploadDocuments.cshtml",
               "RelativeDocumentMoniker": "ContractMonthlyClaimSys\\Views\\Lecturer\\UploadDocuments.cshtml",
@@ -274,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ContractMonthlyClaimSys\\Controllers\\HomeController.cs",
@@ -286,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "LecturerController.cs",
               "DocumentMoniker": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\Controllers\\LecturerController.cs",
               "RelativeDocumentMoniker": "ContractMonthlyClaimSys\\Controllers\\LecturerController.cs",
@@ -298,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "UploadedFile.cs",
               "DocumentMoniker": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\Models\\UploadedFile.cs",
               "RelativeDocumentMoniker": "ContractMonthlyClaimSys\\Models\\UploadedFile.cs",
@@ -310,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ViewClaims.cshtml",
               "DocumentMoniker": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\Views\\Lecturer\\ViewClaims.cshtml",
               "RelativeDocumentMoniker": "ContractMonthlyClaimSys\\Views\\Lecturer\\ViewClaims.cshtml",
@@ -319,18 +330,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-05T11:11:47.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ContractMonthlyClaimSys\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ContractMonthlyClaimSys\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-05T11:07:27.378Z"
             },
             {
               "$type": "Document",
