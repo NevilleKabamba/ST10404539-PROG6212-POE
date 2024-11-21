@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\israe\\Downloads\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj": {}
+    "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj": {}
   },
   "projects": {
-    "C:\\Users\\israe\\Downloads\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj": {
+    "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\israe\\Downloads\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj",
+        "projectUniqueName": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj",
         "projectName": "ContractMonthlyClaimSys",
-        "projectPath": "C:\\Users\\israe\\Downloads\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj",
+        "projectPath": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj",
         "packagesPath": "C:\\Users\\israe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\israe\\Downloads\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\obj\\",
+        "outputPath": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
