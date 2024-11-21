@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Submit Claim";
+}
+
+<h2 class="text-center text-[#1C160C] text-[32px] font-bold">Submit Your Claim</h2>
+<p class="text-center text-[#1C160C] text-base mb-6">Fill out the form below to submit your monthly claim:</p>
+
+<div class="flex flex-col items-center gap-4 max-w-md mx-auto">
+    <form asp-action="SubmitClaim" asp-controller="Lecturer" method="post" class="w-full">
+        <input type="text" name="LecturerName" placeholder="Your Name" class="w-full border border-[#1C160C] p-3 rounded-md mb-4" required />
+        <input type="number" name="HoursWorked" placeholder="Hours Worked" class="w-full border border-[#1C160C] p-3 rounded-md mb-4" required />
+        <input type="number" name="HourlyRate" placeholder="Hourly Rate" class="w-full border border-[#1C160C] p-3 rounded-md mb-4" step="0.01" required />
+        <textarea name="Notes" placeholder="Additional Notes" class="w-full border border-[#1C160C] p-3 rounded-md mb-4"></textarea>
+        <button type="submit" class="w-full flex items-center justify-center bg-[#026583] text-white py-3 px-6 rounded-full text-lg font-bold">Submit Claim</button>
+    </form>
+</div>

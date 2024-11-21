@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ContractMonthlyClaimSys.Models.Claim>
+@{
+    ViewData["Title"] = "View Claims";
+}
+
+<h2 class="text-center text-[#1C160C] text-[32px] font-bold">View Claims</h2>
+<p class="text-center text-[#1C160C] text-base mb-6">Track the status of your submitted claims:</p>
+
+<div class="overflow-x-auto">
+    <table class="min-w-full table-auto bg-[#F4EFE6] rounded-md">
+        <thead class="bg-[#026583] text-white">
+            <tr>
+                <th class="px-4 py-2 text-left">Lecturer Name</th>
+                <th class="px-4 py-2 text-left">Hours Worked</th>
+                <th class="px-4 py-2 text-left">Total Amount</th>
+                <th class="px-4 py-2 text-left">Status</th>
+                <th class="px-4 py-2 text-left">Uploaded Documents</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in Model)
+            {
+                <tr>
+                    <td class="px-4 py-2">@claim.LecturerName</td>
+                    <td class="px-4 py-2">@claim.HoursWorked</td>
+                    <td class="px-4 py-2">@claim.TotalAmount</td>
+                    <td class="px-4 py-2">@claim.Status</td>
+                    <td class="px-4 py-2">
+                        @if (claim.UploadedFiles != null && claim.UploadedFiles.Any())
+                        {
+                            @foreach (var file in claim.UploadedFiles)
+                            {
+                                <a href="@Url.Content("~/" + file.FilePath)" target="_blank">@file.FileName</a>
+
+                                <br />
+                            }
+                        }
+                        else
+                        {
+                            <span>No files uploaded</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

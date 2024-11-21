@@ -1,0 +1,15 @@
+﻿@model int
+@{
+    ViewData["Title"] = "Upload Documents";
+}
+
+<h2 class="text-center text-[#1C160C] text-[32px] font-bold">Upload Documents</h2>
+<p class="text-center text-[#1C160C] text-base mb-6">Attach files for Claim ID: @Model</p>
+
+<div class="flex flex-col items-center gap-4 max-w-md mx-auto">
+    <form asp-action="UploadDocuments" asp-controller="Lecturer" method="post" enctype="multipart/form-data" class="w-full">
+        <input type="hidden" name="claimId" value="@Model" />
+        <input type="file" name="document" class="w-full border border-[#1C160C] p-3 rounded-md mb-4" required />
+        <button type="submit" class="w-full flex items-center justify-center bg-[#026583] text-white py-3 px-6 rounded-full text-lg font-bold">Upload</button>
+    </form>
+</div>

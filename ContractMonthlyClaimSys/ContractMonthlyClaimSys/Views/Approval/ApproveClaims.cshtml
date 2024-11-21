@@ -1,0 +1,66 @@
+﻿@model IEnumerable<ContractMonthlyClaimSys.Models.Claim>
+
+@{
+    ViewData["Title"] = "Approve or Reject Claims";
+}
+
+<h2 class="text-center text-[#1C160C] text-[32px] font-bold">Approve or Reject Claims</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success text-center bg-green-100 border border-green-400 text-green-700 px-4 py-2 rounded-lg mb-4">
+        @TempData["Message"]
+    </div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger text-center bg-red-100 border border-red-400 text-red-700 px-4 py-2 rounded-lg mb-4">
+        @TempData["Error"]
+    </div>
+}
+
+<div class="max-w-[960px] mx-auto">
+    <table class="w-full table-auto border-collapse border border-[#F4EFE6]">
+        <thead class="bg-[#F4EFE6]">
+            <tr>
+                <th class="text-left px-4 py-2 text-[#1C160C] font-bold">Claim ID</th>
+                <th class="text-left px-4 py-2 text-[#1C160C] font-bold">Lecturer Name</th>
+                <th class="text-left px-4 py-2 text-[#1C160C] font-bold">Date Submitted</th>
+                <th class="text-left px-4 py-2 text-[#1C160C] font-bold">Total Amount</th>
+                <th class="text-left px-4 py-2 text-[#1C160C] font-bold">Status</th>
+                <th class="text-left px-4 py-2 text-[#1C160C] font-bold">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in Model)
+            {
+                <tr class="border-t border-[#F4EFE6]">
+                    <td class="px-4 py-2">@claim.Id</td>
+                    <td class="px-4 py-2">@claim.LecturerName</td>
+                    <td class="px-4 py-2">@claim.SubmittedDate.ToString("MM/dd/yyyy")</td>
+                    <td class="px-4 py-2">@claim.TotalAmount.ToString("C")</td>
+                    <td class="px-4 py-2">
+                        <span class="font-medium @((claim.Status == "Approved") ? "text-green-600" : (claim.Status == "Rejected") ? "text-red-600" : "text-gray-600")">
+                            @claim.Status
+                        </span>
+                    </td>
+                    <td class="px-4 py-2">
+                        <form method="post" action="@Url.Action("ApproveClaim", "Approval")" class="inline-block">
+                            <input type="hidden" name="id" value="@claim.Id" />
+                            <button type="submit" class="bg-[#026583] text-white py-1 px-3 rounded-full font-bold hover:bg-[#014457]">
+                                Approve
+                            </button>
+                        </form>
+                        <form method="post" action="@Url.Action("RejectClaim", "Approval")" class="inline-block">
+                            <input type="hidden" name="id" value="@claim.Id" />
+                            <button type="submit" class="bg-[#F4EFE6] text-[#1C160C] py-1 px-3 rounded-full font-bold border border-[#1C160C] hover:bg-[#E5DACF]">
+                                Reject
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

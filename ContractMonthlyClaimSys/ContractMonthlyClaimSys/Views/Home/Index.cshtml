@@ -1,0 +1,18 @@
+﻿<h2 class="text-center text-[#1C160C] text-[32px] font-bold">Welcome to the Contract Monthly Claim System</h2>
+<p class="text-center text-[#1C160C] text-base mb-6">Use the options below to navigate through the system:</p>
+
+<div class="flex flex-col items-center gap-4 max-w-md mx-auto">
+    <a href="@Url.Action("SubmitClaim", "Lecturer")" class="w-full flex items-center justify-center bg-[#026583] text-white py-3 px-6 rounded-full text-lg font-bold">
+        Submit Claim
+    </a>
+    <!-- Updated link to point to Lecturer Controller -->
+    <a href="@Url.Action("UploadDocuments", "Lecturer", new { claimId = Model })" class="w-full flex items-center justify-center bg-[#F4EFE6] text-[#1C160C] py-3 px-6 rounded-full text-lg font-bold">
+        Upload Documents
+    </a>
+    <a href="@Url.Action("ViewClaims", "Lecturer")" class="w-full flex items-center justify-center bg-[#F4EFE6] text-[#1C160C] py-3 px-6 rounded-full text-lg font-bold">
+        Check Claim Status
+    </a>
+    <a href="@Url.Action("ApproveClaims", "Approval")" class="w-full flex items-center justify-center bg-[#F4EFE6] text-[#1C160C] py-3 px-6 rounded-full text-lg font-bold">
+        Approve Claims
+    </a>
+</div>
