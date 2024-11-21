@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Yde+A3BDkxQUhAl3Ik1aRNls+lv1gACnNobbBvTOSgJQiMJM+boyjGITC3GI9P1KS+GRE/d8Cze8hVYB/WfL8Q==",
+  "dgSpecHash": "tVHsy/0k9w/BTxlpJT03UUKgrsGlayB3M1ahpYqPAAzDrDTS2H9upAADnqwCO267FdZ0HoJrsDY762rdy9L5EA==",
   "success": true,
   "projectFilePath": "C:\\Users\\israe\\OneDrive\\Documents\\GitHub\\ST10404539-PROG6212-POE\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys\\ContractMonthlyClaimSys.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\israe\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.0\\microsoft.entityframeworkcore.abstractions.9.0.0.nupkg.sha512",
     "C:\\Users\\israe\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.0\\microsoft.entityframeworkcore.analyzers.9.0.0.nupkg.sha512",
     "C:\\Users\\israe\\.nuget\\packages\\microsoft.entityframeworkcore.design\\9.0.0\\microsoft.entityframeworkcore.design.9.0.0.nupkg.sha512",
+    "C:\\Users\\israe\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\8.0.0\\microsoft.entityframeworkcore.inmemory.8.0.0.nupkg.sha512",
     "C:\\Users\\israe\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.0\\microsoft.entityframeworkcore.relational.9.0.0.nupkg.sha512",
     "C:\\Users\\israe\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\9.0.0\\microsoft.entityframeworkcore.sqlserver.9.0.0.nupkg.sha512",
     "C:\\Users\\israe\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.0\\microsoft.entityframeworkcore.tools.9.0.0.nupkg.sha512",
