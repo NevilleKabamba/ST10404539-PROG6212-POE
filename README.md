@@ -47,8 +47,8 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/NevilleKabamba/ST10404539-PROG6212-PART-1.git
-   cd ContractMonthlyClaimSys
+  [ git clone https://github.com/NevilleKabamba/ST10404539-PROG6212-PART-1.git
+   cd ContractMonthlyClaimSys](https://github.com/NevilleKabamba/ST10404539-PROG6212-POE.git)
 
 2. **Open the project in Visual Studio**:
 
