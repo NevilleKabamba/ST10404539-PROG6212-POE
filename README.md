@@ -1,4 +1,4 @@
-# BudgetQuest 💰
+# BudgetQuest 
 > **Your Money, Your Quest** — A gamified personal budget tracker for Android.
 
 ---
@@ -128,10 +128,6 @@ budget_goals  id · userId(FK) · categoryId(nullable FK) · month · year
 ---
 
 ## 🔧 Setup
-
-```bash
-git clone https://github.com/YOUR_USERNAME/BudgetQuest.git
-```
 Open in Android Studio → Gradle sync → Run on Pixel 6 emulator (API 34).
 See `SETUP_WINDOWS.md` for Windows-specific instructions.
 
