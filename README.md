@@ -1,19 +1,17 @@
 # BudgetQuest 💰
 > **Your Money, Your Quest** — A gamified personal budget tracker for Android.
 
-[![Android CI — BudgetQuest](https://github.com/YOUR_USERNAME/BudgetQuest/actions/workflows/android_ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/BudgetQuest/actions/workflows/android_ci.yml)
-
 ---
 
 ## Module Information
 
 | Field | Detail |
 |---|---|
-| **Module** | PROG7313 — Programming 3C / OP |
+| **Module** | PROG7313 — Programming 3C  |
 | **Institution** | The Independent Institute of Education (IIE) — EMERIS |
 | **Lecturer** | Uzono Ezekiel |
 | **Assessment** | Portfolio of Evidence (POE) — Part 2: App Prototype |
-| **Group Members** | ST10404539 · ST10445158 · ST10440725 · ST10356880 |
+| **Group Members** | ST10404539|
 | **Submission** | 29 April 2026 |
 
 ---
@@ -54,13 +52,7 @@ BudgetQuest is a personal budget tracking Android application built natively in 
 | REQ-07 | Category Spending Totals with animated donut chart | ✅ |
 | REQ-11 | Local Room Database — 4 entities, FK constraints | ✅ |
 
-**Part 3 (Final PoE):** REQ-08 trend graph · REQ-09 progress dashboard · REQ-10 gamification · REQ-12 Firebase sync
 
-**Custom features (Part 3):**
-1. Financial Wellness Insights — automated weekly spending tips
-2. Streak-based Gamification — daily logging streaks with badge animations
-
----
 
 ## 🧪 Automated Testing — GitHub Actions
 
